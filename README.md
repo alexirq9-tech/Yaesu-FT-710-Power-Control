@@ -3,16 +3,9 @@ A Windows GUI application for remote power control of Yaesu FT-710 transceiver v
 
 
 📋 Description
-This application allows you to turn your Yaesu FT-710 transceiver ON and OFF remotely from your Windows computer. Unlike standard CAT commands that don't work when the transceiver is powered off, this program uses low-level Windows API calls to send a special hardware-level sequence that activates the transceiver even when it's completely off.
-
-Key Features
-✅ Remote Power ON/OFF control via USB/COM port
-✅ Simple GUI with intuitive buttons
-✅ Real-time logging of all operations
-✅ Progress indicator during operations
-✅ No response waiting - instant operation, no freezes
-✅ Admin rights required for low-level port access
-✅ Works when transceiver is completely off
+This application allows you to turn your Yaesu FT-710 transceiver ON and OFF remotely from your Windows computer.
+Unlike standard CAT commands that don't work when the transceiver is powered off,
+this program uses low-level Windows API calls to send a special hardware-level sequence that activates the transceiver even when it's completely off.
 
 📥 Installation
 Option 1: Use the compiled EXE (Windows only)
@@ -25,15 +18,6 @@ git clone [https://github.com/yourusername/yaesu-ft710-power-control.git](https:
 
 # Run the application
 python ft710_control.py
-
-🚀 Usage
-Quick Start
-Run as Administrator (right-click → "Run as administrator")
-
-Select your COM port (e.g., COM8)
-Select Baud rate (default: 38400, must match transceiver settings)
-Click ON to power on the transceiver
-Click OFF to power off the transceiver
 
 Build Options
 
