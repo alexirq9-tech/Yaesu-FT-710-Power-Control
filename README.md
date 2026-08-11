@@ -7,28 +7,21 @@ This application allows you to turn your Yaesu FT-710 transceiver ON and OFF rem
 
 Key Features
 ✅ Remote Power ON/OFF control via USB/COM port
-
 ✅ Simple GUI with intuitive buttons
-
 ✅ Real-time logging of all operations
-
 ✅ Progress indicator during operations
-
 ✅ No response waiting - instant operation, no freezes
-
 ✅ Admin rights required for low-level port access
-
 ✅ Works when transceiver is completely off
 
 📥 Installation
 Option 1: Use the compiled EXE (Windows only)
-Download FT710_Control.exe from the dist/ folder and run it as Administrator.
+Download FT710_Control.exe and run it as Administrator.
 
 Steps:
 
 # Clone the repository
 git clone [https://github.com/yourusername/yaesu-ft710-power-control.git](https://github.com/alexirq9-tech/Yaesu-FT-710-Power-Control)
-cd yaesu-ft710-power-control
 
 # Run the application
 python ft710_control.py
@@ -45,11 +38,10 @@ Click OFF to power off the transceiver
 Build Options
 
 # With console window (for debugging)
-pyinstaller --onefile --name "FT710_Control_Debug" src/ft710_control.py
+pyinstaller --onefile --name "FT710_Control_Debug" ft710_control.py
 
 # With custom icon
-pyinstaller --onefile --windowed --name "FT710_Control" --icon=icon.ico src/ft710_control.py
+pyinstaller --onefile --windowed --name "FT710_Control" --icon=icon.ico ft710_control.py
 
 ⚠️ Disclaimer
 This software is provided "as is" without warranty of any kind. Use at your own risk. The author is not responsible for any damage to your transceiver or other equipment. Always follow Yaesu's safety guidelines when operating your transceiver.
-
