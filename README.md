@@ -27,11 +27,11 @@ Download FT710_Control.exe from the dist/ folder and run it as Administrator.
 Steps:
 
 # Clone the repository
-git clone https://github.com/yourusername/yaesu-ft710-power-control.git
+git clone [https://github.com/yourusername/yaesu-ft710-power-control.git](https://github.com/alexirq9-tech/Yaesu-FT-710-Power-Control)
 cd yaesu-ft710-power-control
 
 # Run the application
-python src/ft710_control.py
+python ft710_control.py
 
 🚀 Usage
 Quick Start
